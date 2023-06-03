@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+    background-color: rgb(95, 190, 231);
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    
+}
+.diffBox{
+    background-color: blueviolet;
+}
+#container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    height:430px;
+    width: 430px;
+    
+  }
+  .center{
+    margin: auto;
+    width:50%
+    
+
+  }
